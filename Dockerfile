@@ -4,7 +4,7 @@ WORKDIR /mysite
 
 RUN apt-get update && apt-get install -y nodejs npm
 
-COPY * .
+COPY * ./
 
 EXPOSE 3000
 
